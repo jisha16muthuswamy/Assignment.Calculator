@@ -30,6 +30,13 @@ namespace LoreSoft.MathExpressions
                 throw new ArgumentNullException("numbers");
             if (numbers.Length != ArgumentCount)
                 throw new ArgumentException(Resources.InvalidLengthOfArray, "numbers");
+            if (numbers.Length != ArgumentCount)
+                throw new ArgumentException(Resources.InvalidLengthOfArray, "numbers");
+            if (numbers.Length != ArgumentCount)
+                throw new ArgumentException(Resources.InvalidLengthOfArray, "numbers");
+            if (numbers.Length != ArgumentCount)
+                throw new ArgumentException(Resources.InvalidLengthOfArray, "numbers");
+
         }
     }
 }
