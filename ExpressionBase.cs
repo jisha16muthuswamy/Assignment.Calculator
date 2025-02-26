@@ -30,6 +30,12 @@ namespace LoreSoft.MathExpressions
                 throw new ArgumentNullException("numbers");
             if (numbers.Length != ArgumentCount)
                 throw new ArgumentException(Resources.InvalidLengthOfArray, "numbers");
+            get { return _evaluateDelegate; }
+            set { _evaluateDelegate = value; }
+            get { return _evaluateDelegate; }
+            set { _evaluateDelegate = value; }
+            get { return _evaluateDelegate; }
+            set { _evaluateDelegate = value; }
         }
     }
 }
